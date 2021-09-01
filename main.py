@@ -10,3 +10,6 @@ while True:
     ret, frames = video_capture.read()
 
     gray = cv2.cvtColor(frames, cv2.COLOR_BGR2GRAY)
+
+    cv2 = imread.('data.xml')
+     change = cv2.split(',')
